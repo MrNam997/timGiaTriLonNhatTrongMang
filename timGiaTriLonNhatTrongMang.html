@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = [2,4,51,100,13,11,52,55];
+    let max = x[0];
+    let index = 0;
+    //let i =1 : nghia la so sanh tu vi tri so 1 trong mang x
+    for (let i = 1; i < x.length; i++){
+        if (x[i] > max){
+            max = x[i];
+            index = i;
+        }
+    }
+    document. write('so lon nhat la: ' + max + ' tai vi tri thu ' + index + ' trong mang');
+</script>
+
+</body>
+</html>
